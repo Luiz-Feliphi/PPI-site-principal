@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Tabela e Caixa com Efeito</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <style>
+        /* Tema preto e letras brancas */
+        body {
+            background-color: #000;
+            color: #fff;
+        }
+
+        /* Barra lateral fixa */
+        .sidebar {
+            height: 100%; /* Preenche toda a altura da tela */
+            width: 250px; /* Largura da barra */
+            position: fixed; /* Fixa no lado esquerdo */
+            top: 0;
+            left: 0;
+            background-color: #000; /* Fundo preto */
+            overflow-x: hidden; /* Evita rolagem horizontal */
+            padding-top: 20px;
+            border-right: 1px solid #444; /* Linha para separar a barra do conteúdo */
+        }
+
+        .sidebar a {
+            padding: 10px 15px;
+            text-decoration: none;
+            font-size: 18px;
+            color: white; /* Texto branco */
+            display: block;
+            transition: 0.3s;
+        }
+
+        .sidebar a:hover {
+            background-color: #575757;
+        }
+
+        .sidebar .home {
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        /* Estilo da Tabela */
+        .table {
+            background-color: #111; /* Fundo da tabela */
+            color: #fff; /* Texto branco */
+            margin-top: 20px;
+        }
+
+        .table th, .table td {
+            border: 1px solid #444; /* Borda escura */
+            text-align: center;
+            vertical-align: middle;
+        }
+
+        .table th {
+            font-weight: bold;
+        }
+
+        /* Quadrado para escrita */
+        .write-box {
+            width: 100%;
+            padding: 20px;
+            background-color: #222;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            transition: background-color 0.3s ease, transform 0.3s ease;
+            margin-top: 20px;
+        }
+
+        /* Mudando a cor da caixa ao passar o mouse */
+        .write-box:hover {
+            background-color: #AEEEEE; /* Azul bebê */
+            transform: scale(1.05);
+        }
+
+        /* Estilo da seta de coração */
+        .heart-icon {
+            font-size: 30px;
+            color: #00FFFF; /* Azul elétrico */
+            display: block;
+            margin-top: 10px;
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+
+        .heart-icon:hover {
+            transform: scale(1.2);
+        }
+
+        /* Ajustando o deslocamento do conteúdo principal */
+        .main-content {
+            margin-left: 260px; /* Espaço para a sidebar */
+            padding: 20px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- Menu lateral -->
+    <div class="sidebar">
+        <a href="#" class="home">🏠 Home</a>
+        <a href="disciplinas.html">disciplina</a>
+        <a href="index.html">voltar</a>
+      
+    </div>
+
+    <!-- Conteúdo principal -->
+    <div class="main-content">
+       
+
+        <!-- Tabela com fundo preto e letras brancas -->
+        <table class="table table-dark table-bordered">
+            <thead>
+                
+
+        <!-- Caixa de escrita com efeito de hover -->
+        <div class="write-box">
+            <p>O curso de Sistemas de Informação é uma área da tecnologia da informação que combina conhecimentos em computação, análise de dados e gestão de empresas. O objetivo do curso é formar profissionais que saibam desenvolver, administrar e melhorar sistemas que ajudam as organizações a resolver problemas, otimizar processos e tomar decisões mais informadas.
+                <br>
+                Conteúdo do curso: Durante o curso, os alunos aprendem a programação de software, redes de computadores, banco de dados, segurança da informação, e como gerenciar projetos de TI. Também são abordados temas como desenvolvimento de sistemas, inteligência artificial, e-commerce, e integração de sistemas. A parte de gestão é importante para que o profissional entenda o impacto das soluções tecnológicas nas empresas e saiba como implementar e gerenciar mudanças.
+                <br>
+                Perfil do profissional: Ao final do curso, o profissional é capaz de analisar as necessidades de uma organização e criar soluções tecnológicas para melhorar a eficiência e a produtividade. Ele pode trabalhar em áreas como consultoria de TI, desenvolvimento de aplicativos, análise de dados, e administração de sistemas de informações em diversos setores, como saúde, finanças, educação e comércio.
+                <br>
+                Mercado de trabalho: O mercado para quem se forma em Sistemas de Informação é bastante amplo, pois toda empresa depende de sistemas tecnológicos para funcionar. As possibilidades de atuação são muitas, tanto em empresas de tecnologia quanto em empresas de diferentes áreas que precisam de soluções de TI.
+                </p>
+        </div>
+
+        <!-- Ícone de coração azul elétrico -->
+        <span class="heart-icon">❤️</span>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>

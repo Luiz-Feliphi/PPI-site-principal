@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sait da universidade</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <style>
+        /* Tema preto e letras brancas */
+        body {
+            background-color: #000;
+            color: #fff;
+        }
+
+        /* Menu lateral */
+        .sidebar {
+            height: 100%;
+            width: 250px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            background-color: #000;
+            overflow-x: hidden;
+            padding-top: 20px;
+            border-right: 1px solid #444;
+        }
+
+        .sidebar a {
+            padding: 10px 15px;
+            text-decoration: none;
+            font-size: 18px;
+            color: white;
+            display: block;
+            transition: 0.3s;
+        }
+
+        .sidebar a:hover {
+            background-color: #575757;
+        }
+
+        /* Estilo dos quadrados */
+        .square {
+            width: 100%;
+            height: 200px;
+            background-color: #222;
+            color: white;
+            text-align: center;
+            line-height: 200px; /* Centraliza o texto verticalmente */
+            border-radius: 10px;
+            transition: all 0.3s ease-in-out;
+            position: relative;
+        }
+
+        .square:hover {
+            background-color: #AEEEEE; /* Azul bebê */
+            color: black;
+        }
+
+        /* Botão em formato de coração */
+        .heart-button {
+            position: absolute;
+            bottom: 10px;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: transparent;
+            border: none;
+            color: red;
+            font-size: 20px;
+            cursor: pointer;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .heart-button:hover {
+            transform: scale(1.2); /* Aumenta o tamanho ao passar o mouse */
+        }
+
+        .heart-button i {
+            color: red; /* Cor do ícone de coração */
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Menu lateral -->
+    <div class="sidebar">
+        <a href="#" class="home">🏠 Home</a>
+        <a href="index.html">voltar</a>
+       
+      
+    </div>
+
+    <!-- Conteúdo principal -->
+    <div class="main-content" style="margin-left: 260px; padding: 20px;">
+        
+        <!-- Tabela com quadrados -->
+        <table class="table table-dark table-bordered">
+            <thead>
+                <tr>
+                    <th class="text-center" colspan="5">Aperte o coração</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <div class="square">
+                            UFMG
+                            <br>
+                            <button class="heart-button" onclick="window.location.href='https://eci.ufmg.br/';">
+                                <br>
+                                <i class="fas fa-heart">❤️</i>
+                            </button>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="square">
+                            Fiap
+                            <button class="heart-button" onclick="window.location.href='https://www.fiap.com.br/graduacao/tecnologo/data-science/?gad_source=1&gclid=CjwKCAiAxqC6BhBcEiwAlXp45ybsiyi4IJiYfUF29HatCKBOXpiwHLUsXuHF4qFgoBDr_z680Yz-fhoCIAYQAvD_BwE';">
+                                <i class="fas fa-heart">❤️</i>
+                            </button>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="square">
+                            UNIP
+                            <button class="heart-button" onclick="window.location.href='https://unip.br/cursos/graduacao/tradicionais/ciencia_computacao.aspx?gad_source=1&gclid=CjwKCAiAxqC6BhBcEiwAlXp45_-8Oi_iQitVBJhlIGo8f7eLC8ojhGIPfZeIX_KUIQqqWJZUEp6NVBoC1MoQAvD_BwE&gclsrc=aw.ds';">
+                                <i class="fas fa-heart">❤️</i>
+                            </button>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="square">
+                            ESPM	
+                            <button class="heart-button" onclick="window.location.href='https://www.espm.br/cursos-de-pos-graduacao/?utm_source=google&utm_medium=cpc&utm_campaign=centro-oeste-pos-graduacao-2025_1-search-institucional_amplas-institucional_search&utm_content=centro-oeste-pos-graduacao-2025_1-institucional_amplas-institucional_search-search-ad2_inscreva_se_agora&utm_campaign=SA-POS-GRADUACAO-2025_1-SEARCH-INSTITUCIONAL_AMPLAS&utm_medium=ppc&utm_source=adwords&utm_term=espm%20cursos&hsa_mt=b&hsa_net=adwords&hsa_ver=3&hsa_kw=espm%20cursos&hsa_acc=2913696268&hsa_grp=171751359002&hsa_tgt=kwd-2566331538392&hsa_src=g&hsa_ad=720436935807&hsa_cam=21889384253&gad_source=1&gclid=CjwKCAiAxqC6BhBcEiwAlXp454q2bjGcjxwF5QraScVHQl59ZkyacFoAK8kKzX1N47el9cckmZgdpBoC34YQAvD_BwE';">
+                                <i class="fas fa-heart">❤️</i>
+                            </button>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="square">
+                            UNA
+                            <button class="heart-button" onclick="window.location.href='https://www.una.br/graduacao/ciencia-da-computacao/';">
+                                <i class="fas fa-heart">❤️</i>
+                            </button>
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Font Awesome para o ícone de coração -->
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>

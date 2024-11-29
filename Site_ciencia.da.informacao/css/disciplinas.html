@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>disciplinas</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <style>
+        /* Tema preto e letras brancas */
+        body {
+            background-color: #000;
+            color: #fff;
+        }
+
+        /* Barra lateral fixa */
+        .sidebar {
+            height: 100%; /* Preenche toda a altura da tela */
+            width: 250px; /* Largura da barra */
+            position: fixed; /* Fixa no lado esquerdo */
+            top: 0;
+            left: 0;
+            background-color: #000; /* Fundo preto */
+            overflow-x: hidden; /* Evita rolagem horizontal */
+            padding-top: 20px;
+            border-right: 1px solid #444; /* Linha para separar a barra do conteúdo */
+        }
+
+        .sidebar a {
+            padding: 10px 15px;
+            text-decoration: none;
+            font-size: 18px;
+            color: white; /* Texto branco */
+            display: block;
+            transition: 0.3s;
+        }
+
+        .sidebar a:hover {
+            background-color: #575757;
+        }
+
+        .sidebar .home {
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        /* Ajustando o deslocamento do conteúdo principal */
+        .main-content {
+            margin-left: 260px; /* Espaço para a sidebar */
+            padding: 20px;
+        }
+
+        /* Estilo das tabelas */
+        .table {
+            background-color: #111; /* Fundo da tabela */
+            color: #fff; /* Texto branco */
+            margin-right: 20px; /* Espaçamento entre as tabelas */
+        }
+
+        .table th, .table td {
+            border: 1px solid #444; /* Borda escura */
+            text-align: center;
+            vertical-align: middle;
+        }
+
+        .table th {
+            font-weight: bold;
+        }
+
+        /* Responsividade para as tabelas ficarem lado a lado */
+        .tables-container {
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+        }
+
+        .table-container {
+            width: 30%; /* Tamanho das tabelas */
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Menu lateral -->
+    <div class="sidebar">
+        <a href="#" class="home">🏠 Home</a>
+        <a href="profissão.html">Perfil profissional</a>
+        <a href="index.html">voltar</a>
+       
+    </div>
+
+    <!-- Conteúdo principal -->
+    <div class="main-content">
+
+        <!-- Container para as três tabelas lado a lado -->
+        <div class="tables-container">
+            <!-- Primeira Tabela -->
+            <div class="table-container">
+                <table class="table table-dark table-bordered">
+                    <thead>
+                        <tr>
+                            <th>Disciplinas Fundamentais</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>Introdução à Computação</td></tr>
+                        <tr><td>Lógica de Programação</td></tr>
+                        <tr><td> programação.
+                            Estrutura de Dadoss</td></tr>
+                        <tr><td>Algoritmos e Estruturas de Dados</td></tr>
+                        <tr><td>Banco de Dados</td></tr>
+                        <tr><td>Engenharia de Software</td></tr>
+                        <tr><td>Redes de Computadore</td></tr>
+                        <tr><td>Redes de Computadoress</td></tr>
+                        
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- Segunda Tabela -->
+            <div class="table-container">
+                <table class="table table-dark table-bordered">
+                    <thead>
+                        <tr>
+                            <th>Disciplinas Específicas</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>Desenvolvimento Web</td></tr>
+                        <tr><td>Desenvolvimento de Sistemas</td></tr>
+                        <tr><td>Inteligência Artificial</td></tr>
+                        <tr><td>Gerenciamento de Projetos</td></tr>
+                        <tr><td>Análise de Sistemas</td></tr>
+                        <tr><td>Segurança da Informação</td></tr>
+                        <tr><td>Gestão de Banco de Dados</td></tr>
+                       
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- Terceira Tabela -->
+            <div class="table-container">
+                <table class="table table-dark table-bordered">
+                    <thead>
+                        <tr>
+                            <th>Disciplinas Complementares</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>Matemática Discreta</td></tr>
+                        <tr><td>Estatística</td></tr>
+                        <tr><td>Administração</td></tr>
+                        <tr><td>Empreendedorismo</td></tr>
+                        
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>
+
+

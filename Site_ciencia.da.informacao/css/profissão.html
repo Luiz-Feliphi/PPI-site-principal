@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Tabela e Caixa de Escrita</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <style>
+        /* Tema preto e letras brancas */
+        body {
+            background-color: #000;
+            color: #fff;
+        }
+
+        /* Barra lateral fixa */
+        .sidebar {
+            height: 100%; /* Preenche toda a altura da tela */
+            width: 250px; /* Largura da barra */
+            position: fixed; /* Fixa no lado esquerdo */
+            top: 0;
+            left: 0;
+            background-color: #000; /* Fundo preto */
+            overflow-x: hidden; /* Evita rolagem horizontal */
+            padding-top: 20px;
+            border-right: 1px solid #444; /* Linha para separar a barra do conteúdo */
+        }
+
+        .sidebar a {
+            padding: 10px 15px;
+            text-decoration: none;
+            font-size: 18px;
+            color: white; /* Texto branco */
+            display: block;
+            transition: 0.3s;
+        }
+
+        .sidebar a:hover {
+            background-color: #575757;
+        }
+
+        .sidebar .home {
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        /* Estilo da Tabela */
+        .table {
+            background-color: #111; /* Fundo da tabela */
+            color: #fff; /* Texto branco */
+            margin-top: 20px;
+        }
+
+        .table th, .table td {
+            border: 1px solid #444; /* Borda escura */
+            text-align: center;
+            vertical-align: middle;
+        }
+
+        .table th {
+            font-weight: bold;
+        }
+
+        /* Quadrado para escrita */
+        .write-box {
+            width: 100%;
+            padding: 20px;
+            background-color: #222;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            transition: background-color 0.3s ease, transform 0.3s ease;
+            margin-top: 20px;
+            position: relative;
+        }
+
+        /* Mudando a cor da caixa ao passar o mouse */
+        .write-box:hover {
+            background-color: #AEEEEE; /* Azul bebê */
+            transform: scale(1.05);
+        }
+
+        /* Estilo da seta de coração */
+        .heart-icon {
+            font-size: 30px;
+            color: #00FFFF; /* Azul elétrico */
+            position: absolute;
+            bottom: -40px;
+            left: 50%;
+            transform: translateX(-50%);
+            transition: transform 0.3s ease;
+        }
+
+        .write-box:hover .heart-icon {
+            transform: translateX(-50%) scale(1.5); /* Aumenta a seta de coração */
+        }
+
+        /* Ajustando o deslocamento do conteúdo principal */
+        .main-content {
+            margin-left: 260px; /* Espaço para a sidebar */
+            padding: 20px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- Menu lateral -->
+    <div class="sidebar">
+        <a href="#" class="home">🏠 Home</a>
+        <a href="#sait.html">sait das universidades</a>
+        <a href="index.html">voltar</a>
+      
+    </div>
+
+    <!-- Conteúdo principal -->
+    <div class="main-content">
+    
+
+        <!-- Tabela com fundo preto e letras brancas -->
+        <table class="table table-dark table-bordered">
+            <thead>
+                
+        </table>
+
+        <!-- Caixa de escrita com efeito de hover -->
+        <div class="write-box">
+            <p>Mercado de Trabalho
+                <br>s
+                A área de Sistemas de Informação está em crescimento, devido à crescente digitalização das empresas e à necessidade de inovação tecnológica. Profissionais dessa área podem atuar em empresas de diversos segmentos, como bancos, indústrias, empresas de tecnologia, saúde, educação, comércio eletrônico, entre outros. A demanda por profissionais qualificados é alta, especialmente por aqueles com conhecimentos em áreas como inteligência artificial, Big Data, segurança cibernética e desenvolvimento de aplicativos.
+                
+                Além disso, muitos profissionais dessa área optam por trabalhar como freelancers ou abrir suas próprias empresas de consultoria em TI, o que oferece flexibilidade e potencial para crescimento no mercado.</p>
+            <span class="heart-icon">❤️</span>
+        </div>
+            <br>
+        <div class="write-box">
+            <p>
+                Salários
+                 <br>
+                 <br>
+                Os salários para profissionais de Sistemas de Informação podem variar bastante dependendo da experiência, especialização e local de trabalho. De maneira geral:
+                <br>
+                Iniciante: Profissionais recém-formados ou com pouca experiência podem esperar ganhar entre R$ 2.500 e R$ 4.000 por mês.
+                <br>
+                Profissional Experiente: Aqueles com mais experiência (de 3 a 5 anos) podem ganhar entre R$ 4.000 e R$ 8.000 mensais.
+                <br>
+                Profissional Sênior ou Especialista: Profissionais altamente qualificados e especializados, especialmente em áreas como segurança de TI ou big data, podem chegar a ganhar de R$ 8.000 a R$ 15.000 ou mais.</p>
+            <span class="heart-icon">❤️</span>
+        </div>
+        <br>
+        <div class="write-box">
+            <p>Possíveis Profissões
+                <br>
+                <br>
+                Após a formação em Sistemas de Informação, os profissionais podem seguir diversas carreiras, tais como:
+                <br>
+                Desenvolvedor de Software: Cria e mantém programas de computador, aplicativos e sistemas.
+                <br>
+                Analista de Sistemas: Faz o levantamento e análise de necessidades de sistemas, desenvolvendo soluções tecnológicas.
+                <br>
+                Administrador de Banco de Dados: Gerencia bancos de dados, garantindo o armazenamento seguro e eficiente de informações.
+                <br>
+                Engenheiro de Redes: Planeja e gerencia as redes de computadores de uma empresa.
+                <br>
+                Consultor de TI: Fornece orientação estratégica para empresas sobre como melhorar seus processos e sistemas usando tecnologia.
+                <br>
+                Especialista em Segurança da Informação: Protege os sistemas e dados de empresas contra ataques cibernéticos e falhas de segurança.
+                <br>
+                Gestor de TI: Lidera equipes de tecnologia e cuida da infraestrutura de TI de uma organização.
+                <br>
+                Cientista de Dados: Trabalha com análise de grandes volumes de dados para fornecer insights valiosos para a empresa.</p>
+            <span class="heart-icon">❤️</span>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>

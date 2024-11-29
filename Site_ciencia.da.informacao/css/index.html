@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pagina inicial</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <style>
+        /* Tema global: fundo preto e texto branco */
+        body {
+            background-color: #000;
+            color: #fff;
+        }
+
+        /* Centralizando o conteúdo do container */
+        .container {
+            margin-left: 260px; /* Desloca o conteúdo para não ser sobreposto pela sidebar */
+        }
+
+        /* Barra lateral fixa */
+        .sidebar {
+            height: 100%; /* Preenche toda a altura da tela */
+            width: 250px; /* Largura da barra */
+            position: fixed; /* Fixa no lado esquerdo */
+            top: 0;
+            left: 0;
+            background-color: #000; /* Fundo preto */
+            overflow-x: hidden; /* Evita rolagem horizontal */
+            padding-top: 20px;
+            border-right: 1px solid #444; /* Linha para separar a barra do conteúdo */
+        }
+
+        /* Links da barra lateral */
+        .sidebar a {
+            padding: 10px 15px;
+            text-decoration: none;
+            font-size: 18px;
+            color: white; /* Texto branco */
+            display: block;
+            transition: 0.3s;
+        }
+
+        /* Hover nos links */
+        .sidebar a:hover {
+            background-color: #575757;
+        }
+
+        /* Estilo especial para o botão "Home" */
+        .sidebar .home {
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        /* Estilos para os elementos Bootstrap */
+        .navbar-dark .navbar-brand, .navbar-dark .nav-link {
+            color: #fff !important;
+        }
+
+        .jumbotron {
+            background-color: #111;
+            color: #fff;
+        }
+
+        .btn-primary {
+            background-color: #575757;
+            border-color: #444;
+        }
+
+        .btn-primary:hover {
+            background-color: #444;
+            border-color: #333;
+        }
+    </style>
+</head>
+<body>
+    <!-- Barra lateral -->
+    <div class="sidebar">
+        <a href="#" class="home">🏠 Home</a>
+        <a href="universidades.html">Universidade</a>
+        <a href="#menu2">voltar</a>
+      
+    </div>
+
+    <!-- Container principal -->
+    <div class="container">
+        <!-- Navbar preta com Bootstrap -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#">Sistema da Informação</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="disciplinas.html">Disciplinas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="curso.html">Curso</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#link3">Profissionais</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Sobre o Curso
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="universidades.html">Universidade</a>
+                                <a class="dropdown-item" href="disciplinas.html">Grade Curricular</a>
+                                <a class="dropdown-item" href="curso.html">Mais Informações</a>
+                                <a class="dropdown-item" href="sait.html">sait da universidades</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Conteúdo principal -->
+        <div class="jumbotron">
+            <h1 class="display-4">Olá, saiba mais sobre Sistemas de Informação</h1>
+            <p class="lead">A área de Sistemas de Informação combina tecnologia, negócios e gestão para ajudar organizações a usar dados e sistemas computacionais de forma eficiente...</p>
+            
+        </div>
+    
+            <div class="card-body">
+                <p class="card-text">Júlia Pizzarolli Ribeiro dos Santos</p>
+            </div>
+        </div>
+        
+      
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>
