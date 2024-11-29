@@ -1,0 +1,1752 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com" rel="preconnect">
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin="">
+        <link id="builder-default-fonts" href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&amp;family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&amp;family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&amp;display=swap" rel="stylesheet">
+        <link id="builder-font-roboto" href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap" rel="stylesheet"><link id="builder-font-raleway" href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap" rel="stylesheet"><link id="builder-font-poppins" href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css">
+        <style id="css-utility-php-email-form"> /* PHP Email Form Messages
+
+    .php-email-form .error-message {
+      display: none;
+      background: #df1529;
+      color: #ffffff;
+      text-align: left;
+      padding: 15px;
+      margin-bottom: 24px;
+      font-weight: 600;
+    }
+    
+    .php-email-form .sent-message {
+      display: none;
+      color: #ffffff;
+      background: #059652;
+      text-align: center;
+      padding: 15px;
+      margin-bottom: 24px;
+      font-weight: 600;
+    }
+    
+    .php-email-form .loading {
+      display: none;
+      background: var(--surface-color);
+      text-align: center;
+      padding: 15px;
+      margin-bottom: 24px;
+    }
+    
+    .php-email-form .loading:before {
+      content: "";
+      display: inline-block;
+      border-radius: 50%;
+      width: 24px;
+      height: 24px;
+      margin: 0 10px -6px 0;
+      border: 3px solid var(--accent-color);
+      border-top-color: var(--surface-color);
+      animation: php-email-form-loading 1s linear infinite;
+    }
+    
+    @keyframes php-email-form-loading {
+      0% {
+        transform: rotate(0deg);
+      }
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+     </style><style id="builder-fonts-styles"></style><link rel="stylesheet" href="https://builder.bootstrapmade.com/static/vendors/bootstrap/css/bootstrap.css?v=13"><link rel="stylesheet" href="https://builder.bootstrapmade.com/static/vendors/bootstrap-icons/bootstrap-icons.css?v=13"><link id="vendor-css-glightbox" rel="stylesheet" href="https://builder.bootstrapmade.com/static/vendors/glightbox/css/glightbox.min.css?v=13"><link id="vendor-css-swiper" rel="stylesheet" href="https://builder.bootstrapmade.com/static/vendors/swiper/swiper-bundle.min.css?v=13"><style id="builder-vendors-styles"></style><style id="builder-general-css">:root {  --default-font: Roboto, system-ui, -apple-system, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, Liberation Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; --heading-font: Raleway; --nav-font: Poppins;--background-color: #ffffff; --default-color: #272829; --heading-color: #45505b; --accent-color: #0563bb; --surface-color: #ffffff; --contrast-color: #ffffff; --nav-color: #45505b; --nav-hover-color: #0563bb; --nav-mobile-background-color: #ffffff; --nav-dropdown-background-color: #ffffff; --nav-dropdown-color: #212529; --nav-dropdown-hover-color: #0563bb; scroll-behavior: smooth; }body {
+      color: var(--default-color);
+      background-color: var(--background-color);
+      font-family: var(--default-font);
+    }
+    
+    a {
+      color: var(--accent-color);
+      text-decoration: none;
+      transition: 0.3s;
+    }
+    
+    a:hover {
+      color: color-mix(in srgb, var(--accent-color), transparent 25%);
+      text-decoration: none;
+    }
+    
+    h1, h2, h3, h4, h5, h6 {
+      color: var(--heading-color);
+      font-family: var(--heading-font);
+    } section, .section {
+      color: var(--default-color);
+      background-color: var(--background-color);
+      padding: 60px 0;
+      overflow: clip;
+    } .section-title {
+      text-align: center;
+      padding-bottom: 60px;
+      position: relative;
+    }
+    
+    .section-title h2 {
+      font-size: 32px;
+      font-weight: 700;
+      margin-bottom: 20px;
+      padding-bottom: 20px;
+      position: relative;
+    }
+    
+    .section-title h2:before {
+      content: '';
+      position: absolute;
+      display: block;
+      width: 160px;
+      height: 1px;
+      background: color-mix(in srgb, var(--default-color), transparent 60%);
+      left: 0;
+      right: 0;
+      bottom: 1px;
+      margin: auto;
+    }
+    
+    .section-title h2::after {
+      content: '';
+      position: absolute;
+      display: block;
+      width: 60px;
+      height: 3px;
+      background: var(--accent-color);
+      left: 0;
+      right: 0;
+      bottom: 0;
+      margin: auto;
+    }
+    
+    .section-title p {
+      margin-bottom: 0;
+    }
+     .page-title {
+      --background-color: color-mix(in srgb, var(--default-color), transparent 96%);
+      color: var(--default-color);
+      background-color: var(--background-color);
+      padding: 20px 0;
+      position: relative;
+    }
+    
+    .page-title h1 {
+      font-size: 28px;
+      font-weight: 700;
+      margin: 0;
+    }
+    
+    .page-title .breadcrumbs ol {
+      display: flex;
+      flex-wrap: wrap;
+      list-style: none;
+      padding: 0 0 10px 0;
+      margin: 0;
+      font-size: 14px;
+      font-weight: 400;
+    }
+    
+    .page-title .breadcrumbs ol li + li {
+      padding-left: 10px;
+    }
+    
+    .page-title .breadcrumbs ol li + li::before {
+      content: "/";
+      display: inline-block;
+      padding-right: 10px;
+      color: color-mix(in srgb, var(--default-color), transparent 70%);
+    }
+     .widgets-container {
+      padding: 30px;
+      margin: 30px 0;
+      box-shadow: 0 4px 16px rgba(0,0,0, 0.1);
+    }
+    
+    .widget-title {
+      color: var(--heading-color);
+      font-size: 20px;
+      font-weight: 700;
+      padding: 0;
+      margin: 0 0 20px 0;
+    }
+    
+    .widget-item {
+      margin-bottom: 40px;
+    }
+    
+    .widget-item:last-child {
+      margin-bottom: 0;
+    }
+    </style>
+    
+    <style id="builder-general-styles"></style>
+    <style id="builder-color-presets-css">[data-colorpreset="cp-light-background"], .light-background { --background-color: #f9f9f9; --surface-color: #ffffff; } [data-colorpreset="cp-dark-background"], .dark-background { --background-color: #060606; --default-color: #ffffff; --heading-color: #ffffff; --surface-color: #252525; --contrast-color: #ffffff; } </style><style id="header-style"> .header {
+      color: var(--default-color);
+      position: fixed;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      padding: 0 15px;
+      transition: all ease-in-out 0.3s;
+      overflow-y: auto;
+      z-index: 997;
+      min-width: 200px;
+    }
+    @media (max-width: 1199px) {
+      .header {
+        background-color: var(--background-color);
+        border-right: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
+        width: 300px;
+        left: -100%;
+      }
+    }
+    @media (min-width: 1200px) and (max-width: 1600px) {
+      .header ~ main {
+        margin-left: 160px;
+      }
+      .header ~ main .hero {
+        margin-left: -160px;
+        width: 100vw;
+      }
+    }
+    .header.header-show {
+      left: 0;
+    }
+    .header .header-toggle {
+      color: var(--contrast-color);
+      background-color: var(--accent-color);
+      font-size: 22px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      cursor: pointer;
+      position: fixed;
+      top: 15px;
+      right: 15px;
+      z-index: 9999;
+      transition: background-color 0.3s;
+    }
+    .header .header-toggle:hover {
+      color: var(--contrast-color);
+      background-color: color-mix(in srgb, var(--accent-color) 90%, white 15%);
+    } </style>
+    
+    <style id="header-colors"> .header { --nav-color: #45505b; --nav-hover-color: #0563bb; --nav-mobile-background-color: #ffffff; --nav-dropdown-background-color: #ffffff; --nav-dropdown-color: #212529; --nav-dropdown-hover-color: #0563bb;  }  </style><style id="nav-style"> .navmenu {
+      padding: 0;
+      z-index: 9997;
+    }
+    .navmenu ul {
+      list-style: none;
+      padding: 0 0 20px 0;
+      margin: 0;
+      width: 140px;
+    }
+    .navmenu a, .navmenu a:focus {
+      color: var(--nav-color);
+      font-family: var(--nav-font);
+      display: flex;
+      align-items: center;
+      padding: 10px 18px;
+      margin-bottom: 8px;
+      font-size: 15px;
+      border-radius: 50px;
+      background: color-mix(in srgb, var(--default-color), transparent 92%);
+      height: 56px;
+      width: 100%;
+      overflow: hidden;
+      transition: 0.3s;
+    }
+    .navmenu a i, .navmenu a:focus i {
+      font-size: 20px;
+    }
+    .navmenu a span, .navmenu a:focus span {
+      padding: 0 5px 0 7px;
+    }
+    @media (min-width: 992px) {
+      .navmenu a, .navmenu a:focus {
+        max-width: 56px;
+      }
+      .navmenu a span, .navmenu a:focus span {
+        display: none;
+      }
+    }
+    .navmenu a:hover, .navmenu .active, .navmenu .active:focus, .navmenu li:hover > a {
+      color: var(--contrast-color);
+      background: var(--nav-hover-color);
+    }
+    .navmenu a:hover, .navmenu li:hover > a {
+      max-width: 100%;
+      color: var(--contrast-color);
+    }
+    .navmenu a:hover span, .navmenu li:hover > a span {
+      display: block;
+    }
+     </style><style id="footer-style"> .footer {
+      color: var(--default-color);
+      background-color: var(--background-color);
+      font-size: 14px;
+      text-align: center;
+      padding: 30px 0;
+      position: relative;
+    }
+    .footer h3 {
+      font-size: 36px;
+      font-weight: 700;
+      position: relative;
+      padding: 0;
+      margin: 0 0 15px 0;
+    }
+    .footer p {
+      font-size: 15;
+      font-style: italic;
+      padding: 0;
+      margin: 0 0 30px 0;
+    }
+    .footer .social-links {
+      margin: 0 0 30px 0;
+    }
+    .footer .social-links a {
+      font-size: 16px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: var(--accent-color);
+      color: var(--contrast-color);
+      line-height: 1;
+      margin: 0 4px;
+      border-radius: 50%;
+      text-align: center;
+      width: 36px;
+      height: 36px;
+      transition: 0.3s;
+    }
+    .footer .social-links a:hover {
+      background: color-mix(in srgb, var(--accent-color), transparent 20%);
+      text-decoration: none;
+    }
+    .footer .copyright {
+      padding-top: 25px;
+      border-top: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
+    }
+    .footer .credits {
+      font-size: 13px;
+      padding-top: 5px;
+    } </style><style id="scrolltop-style"> .scroll-top {
+      position: fixed;
+      visibility: hidden;
+      opacity: 0;
+      right: 15px;
+      bottom: -15px;
+      z-index: 99999;
+      background-color: var(--accent-color);
+      width: 44px;
+      height: 44px;
+      border-radius: 50px;
+      transition: all 0.4s;
+    }
+    
+    .scroll-top i {
+      font-size: 24px;
+      color: var(--contrast-color);
+      line-height: 0;
+    }
+    
+    .scroll-top:hover {
+      background-color: color-mix(in srgb, var(--accent-color), transparent 20%);
+      color: var(--contrast-color);
+    }
+    
+    .scroll-top.active {
+      visibility: visible;
+      opacity: 1;
+      bottom: 15px;
+    }
+     </style><style id="section-9fgKnMZj0h-style"> .hero {
+      width: 100%;
+      min-height: 100vh;
+      position: relative;
+      padding: 80px 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .hero img {
+      position: absolute;
+      inset: 0;
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      z-index: 1;
+    }
+    .hero:before {
+      content: "";
+      background: color-mix(in srgb, var(--background-color), transparent 30%);
+      position: absolute;
+      inset: 0;
+      z-index: 2;
+    }
+    .hero .container {
+      position: relative;
+      z-index: 3;
+    }
+    .hero h2 {
+      margin: 0;
+      font-size: 64px;
+      font-weight: 700;
+    }
+    .hero p {
+      margin: 5px 0 0 0;
+      font-size: 26px;
+    }
+    .hero p span {
+      letter-spacing: 1px;
+      border-bottom: 2px solid var(--accent-color);
+    }
+    .hero .social-links {
+      margin-top: 25px;
+    }
+    .hero .social-links a {
+      font-size: 20px;
+      display: inline-block;
+      color: color-mix(in srgb, var(--default-color), transparent 30%);
+      line-height: 1;
+      margin-right: 20px;
+      transition: 0.3s;
+    }
+    .hero .social-links a:hover {
+      color: var(--accent-color);
+    }
+    @media (max-width: 768px) {
+      .hero h2 {
+        font-size: 32px;
+      }
+      .hero p {
+        font-size: 20px;
+      }
+    } </style><style id="section-wHyvgCvGUK-style"> .about .content h2 {
+      font-weight: 700;
+      font-size: 24px;
+    }
+    .about .content ul {
+      list-style: none;
+      padding: 0;
+    }
+    .about .content ul li {
+      margin-bottom: 20px;
+      display: flex;
+      align-items: center;
+    }
+    .about .content ul strong {
+      margin-right: 10px;
+    }
+    .about .content ul i {
+      font-size: 16px;
+      margin-right: 5px;
+      color: var(--accent-color);
+      line-height: 0;
+    } </style><style id="section-7Dz1zTNEa2-style"> .stats i {
+      background-color: var(--accent-color);
+      color: var(--contrast-color);
+      width: 54px;
+      height: 54px;
+      font-size: 24px;
+      border-radius: 50px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      z-index: 1;
+    }
+    .stats .stats-item {
+      margin-top: 10px;
+      width: 100%;
+      position: relative;
+      text-align: center;
+      z-index: 0;
+    }
+    .stats .stats-item span {
+      font-size: 36px;
+      display: block;
+      font-weight: 700;
+      color: color-mix(in srgb, var(--default-color), transparent 20%);
+    }
+    .stats .stats-item p {
+      padding: 0;
+      margin: 0;
+      color: color-mix(in srgb, var(--default-color), transparent 50%);
+      font-size: 16px;
+    } </style><style id="section-hjLenRQrdX-style"> .skills .progress {
+      height: 60px;
+      display: block;
+      background: none;
+      border-radius: 0;
+    }
+    .skills .progress .skill {
+      color: var(--heading-color);
+      padding: 0;
+      margin: 0 0 6px 0;
+      text-transform: uppercase;
+      display: block;
+      font-weight: 600;
+      font-family: var(--heading-font);
+    }
+    .skills .progress .skill .val {
+      float: right;
+      font-style: normal;
+    }
+    .skills .progress-bar-wrap {
+      background: color-mix(in srgb, var(--default-color), transparent 90%);
+      height: 10px;
+    }
+    .skills .progress-bar {
+      width: 1px;
+      height: 10px;
+      transition: 0.9s;
+      background-color: var(--accent-color);
+    } </style><style id="section-05a2rxzJv4-style"> .resume .resume-title {
+      color: var(--heading-color);
+      font-size: 26px;
+      font-weight: 700;
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+    .resume .resume-item {
+      padding: 0 0 20px 20px;
+      margin-top: -2px;
+      border-left: 2px solid var(--accent-color);
+      position: relative;
+    }
+    .resume .resume-item h4 {
+      line-height: 18px;
+      font-size: 18px;
+      font-weight: 600;
+      text-transform: uppercase;
+      color: color-mix(in srgb, var(--default-color), transparent 20%);
+      margin-bottom: 10px;
+    }
+    .resume .resume-item h5 {
+      font-size: 16px;
+      padding: 5px 15px;
+      display: inline-block;
+      font-weight: 600;
+      margin-bottom: 10px;
+    }
+    .resume .resume-item ul {
+      padding-left: 20px;
+    }
+    .resume .resume-item ul li {
+      padding-bottom: 10px;
+    }
+    .resume .resume-item:last-child {
+      padding-bottom: 0;
+    }
+    .resume .resume-item::before {
+      content: "";
+      position: absolute;
+      width: 16px;
+      height: 16px;
+      border-radius: 50px;
+      left: -9px;
+      top: 0;
+      background: var(--background-color);
+      border: 2px solid var(--accent-color);
+    } </style><style id="section-8tm81sWhkc-style"> .portfolio .portfolio-filters {
+      padding: 0;
+      margin: 0 auto 20px auto;
+      list-style: none;
+      text-align: center;
+    }
+    .portfolio .portfolio-filters li {
+      cursor: pointer;
+      display: inline-block;
+      padding: 8px 20px 10px 20px;
+      margin: 0;
+      font-size: 15px;
+      font-weight: 500;
+      line-height: 1;
+      margin-bottom: 5px;
+      border-radius: 50px;
+      transition: all 0.3s ease-in-out;
+      font-family: var(--heading-font);
+    }
+    .portfolio .portfolio-filters li:hover, .portfolio .portfolio-filters li.filter-active {
+      color: var(--contrast-color);
+      background-color: var(--accent-color);
+    }
+    .portfolio .portfolio-filters li:first-child {
+      margin-left: 0;
+    }
+    .portfolio .portfolio-filters li:last-child {
+      margin-right: 0;
+    }
+    @media (max-width: 575px) {
+      .portfolio .portfolio-filters li {
+        font-size: 14px;
+        margin: 0 0 10px 0;
+      }
+    }
+    .portfolio .portfolio-item {
+      position: relative;
+      overflow: hidden;
+    }
+    .portfolio .portfolio-item .portfolio-info {
+      opacity: 0;
+      position: absolute;
+      left: 12px;
+      right: 12px;
+      bottom: -100%;
+      z-index: 3;
+      transition: all ease-in-out 0.5s;
+      background: color-mix(in srgb, var(--background-color), transparent 10%);
+      padding: 15px;
+    }
+    .portfolio .portfolio-item .portfolio-info h4 {
+      font-size: 18px;
+      font-weight: 600;
+      padding-right: 50px;
+    }
+    .portfolio .portfolio-item .portfolio-info p {
+      color: color-mix(in srgb, var(--default-color), transparent 30%);
+      font-size: 14px;
+      margin-bottom: 0;
+      padding-right: 50px;
+    }
+    .portfolio .portfolio-item .portfolio-info .preview-link, .portfolio .portfolio-item .portfolio-info .details-link {
+      position: absolute;
+      right: 50px;
+      font-size: 24px;
+      top: calc(50% - 14px);
+      color: color-mix(in srgb, var(--default-color), transparent 30%);
+      transition: 0.3s;
+      line-height: 0;
+    }
+    .portfolio .portfolio-item .portfolio-info .preview-link:hover, .portfolio .portfolio-item .portfolio-info .details-link:hover {
+      color: var(--accent-color);
+    }
+    .portfolio .portfolio-item .portfolio-info .details-link {
+      right: 14px;
+      font-size: 28px;
+    }
+    .portfolio .portfolio-item:hover .portfolio-info {
+      opacity: 1;
+      bottom: 0;
+    } </style><style id="section-dSBBBRDIca-style"> .services .service-item {
+      background-color: var(--surface-color);
+      box-shadow: 0px 5px 90px 0px rgba(0, 0, 0, 0.1);
+      height: 100%;
+      padding: 60px 30px;
+      text-align: center;
+      transition: 0.3s;
+      border-radius: 5px;
+    }
+    .services .service-item .icon {
+      margin: 0 auto;
+      width: 100px;
+      height: 100px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: ease-in-out 0.3s;
+      position: relative;
+    }
+    .services .service-item .icon i {
+      font-size: 36px;
+      transition: 0.5s;
+      position: relative;
+    }
+    .services .service-item .icon svg {
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+    .services .service-item .icon svg path {
+      transition: 0.5s;
+      fill: color-mix(in srgb, var(--default-color), transparent 95%);
+    }
+    .services .service-item h3 {
+      font-weight: 700;
+      margin: 10px 0 15px 0;
+      font-size: 22px;
+    }
+    .services .service-item p {
+      line-height: 24px;
+      font-size: 14px;
+      margin-bottom: 0;
+    }
+    .services .service-item:hover {
+      box-shadow: 0px 5px 35px 0px rgba(0, 0, 0, 0.1);
+    }
+    .services .service-item.item-cyan i {
+      color: #0dcaf0;
+    }
+    .services .service-item.item-cyan:hover .icon i {
+      color: #fff;
+    }
+    .services .service-item.item-cyan:hover .icon path {
+      fill: #0dcaf0;
+    }
+    .services .service-item.item-orange i {
+      color: #fd7e14;
+    }
+    .services .service-item.item-orange:hover .icon i {
+      color: #fff;
+    }
+    .services .service-item.item-orange:hover .icon path {
+      fill: #fd7e14;
+    }
+    .services .service-item.item-teal i {
+      color: #20c997;
+    }
+    .services .service-item.item-teal:hover .icon i {
+      color: #fff;
+    }
+    .services .service-item.item-teal:hover .icon path {
+      fill: #20c997;
+    }
+    .services .service-item.item-red i {
+      color: #df1529;
+    }
+    .services .service-item.item-red:hover .icon i {
+      color: #fff;
+    }
+    .services .service-item.item-red:hover .icon path {
+      fill: #df1529;
+    }
+    .services .service-item.item-indigo i {
+      color: #6610f2;
+    }
+    .services .service-item.item-indigo:hover .icon i {
+      color: #fff;
+    }
+    .services .service-item.item-indigo:hover .icon path {
+      fill: #6610f2;
+    }
+    .services .service-item.item-pink i {
+      color: #f3268c;
+    }
+    .services .service-item.item-pink:hover .icon i {
+      color: #fff;
+    }
+    .services .service-item.item-pink:hover .icon path {
+      fill: #f3268c;
+    } </style><style id="section-QA9mspdcaw-style"> .testimonials .testimonials-carousel, .testimonials .testimonials-slider {
+      overflow: hidden;
+    }
+    .testimonials .testimonial-item .testimonial-content {
+      border-left: 3px solid var(--accent-color);
+      padding-left: 30px;
+    }
+    .testimonials .testimonial-item .testimonial-img {
+      border-radius: 50%;
+      border: 4px solid var(--background-color);
+      margin: 0 auto;
+    }
+    .testimonials .testimonial-item h3 {
+      font-size: 20px;
+      font-weight: bold;
+      margin: 10px 0 5px 0;
+    }
+    .testimonials .testimonial-item h4 {
+      font-size: 14px;
+      color: color-mix(in srgb, var(--default-color), transparent 40%);
+      margin: 0 0 10px 0;
+    }
+    .testimonials .testimonial-item .stars i {
+      color: #ffc107;
+      margin: 0 1px;
+    }
+    .testimonials .testimonial-item .quote-icon-left, .testimonials .testimonial-item .quote-icon-right {
+      color: color-mix(in srgb, var(--accent-color), transparent 50%);
+      font-size: 26px;
+      line-height: 0;
+    }
+    .testimonials .testimonial-item .quote-icon-left {
+      display: inline-block;
+      left: -5px;
+      position: relative;
+    }
+    .testimonials .testimonial-item .quote-icon-right {
+      display: inline-block;
+      right: -5px;
+      position: relative;
+      top: 10px;
+      transform: scale(-1, -1);
+    }
+    .testimonials .testimonial-item p {
+      font-style: italic;
+    }
+    .testimonials .swiper-wrapper {
+      height: auto;
+    }
+    .testimonials .swiper-pagination {
+      margin-top: 30px;
+      position: relative;
+    }
+    .testimonials .swiper-pagination .swiper-pagination-bullet {
+      width: 12px;
+      height: 12px;
+      background-color: color-mix(in srgb, var(--default-color), transparent 85%);
+      opacity: 1;
+    }
+    .testimonials .swiper-pagination .swiper-pagination-bullet-active {
+      background-color: var(--accent-color);
+    } </style><style id="section-jOZpLxMosM-style"> .contact .info-item + .info-item {
+      margin-top: 40px;
+    }
+    .contact .info-item i {
+      color: var(--accent-color);
+      background: color-mix(in srgb, var(--accent-color), transparent 92%);
+      font-size: 20px;
+      width: 44px;
+      height: 44px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 50px;
+      transition: all 0.3s ease-in-out;
+      margin-right: 15px;
+    }
+    .contact .info-item h3 {
+      padding: 0;
+      font-size: 18px;
+      font-weight: 700;
+      margin-bottom: 5px;
+    }
+    .contact .info-item p {
+      padding: 0;
+      margin-bottom: 0;
+      font-size: 14px;
+    }
+    .contact .info-item:hover i {
+      background: var(--accent-color);
+      color: var(--contrast-color);
+    }
+    .contact .php-email-form {
+      height: 100%;
+    }
+    .contact .php-email-form input[type=text], .contact .php-email-form input[type=email], .contact .php-email-form textarea {
+      font-size: 14px;
+      padding: 10px 15px;
+      box-shadow: none;
+      border-radius: 0;
+      color: var(--default-color);
+      background-color: color-mix(in srgb, var(--background-color), transparent 50%);
+      border-color: color-mix(in srgb, var(--default-color), transparent 80%);
+    }
+    .contact .php-email-form input[type=text]:focus, .contact .php-email-form input[type=email]:focus, .contact .php-email-form textarea:focus {
+      border-color: var(--accent-color);
+    }
+    .contact .php-email-form input[type=text]::placeholder, .contact .php-email-form input[type=email]::placeholder, .contact .php-email-form textarea::placeholder {
+      color: color-mix(in srgb, var(--default-color), transparent 70%);
+    }
+    .contact .php-email-form button[type=submit] {
+      color: var(--contrast-color);
+      background: var(--accent-color);
+      border: 0;
+      padding: 10px 30px;
+      transition: 0.4s;
+      border-radius: 50px;
+    }
+    .contact .php-email-form button[type=submit]:hover {
+      background: color-mix(in srgb, var(--accent-color), transparent 25%);
+    } 
+
+     /* Estilo para a sobreposição da popup */
+.popup-overlay {
+    display: none; /* Começa com a popup oculta */
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 50%; /* Limita a largura da popup a 50% */
+    max-width: 600px; /* Define uma largura máxima para telas grandes */
+    height: 25%; /* Ocupa toda a altura da tela */
+    background: rgba(255, 255, 255, 0.8); /* Fundo translúcido */
+    z-index: 9999;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Estilo para o conteúdo da popup */
+.popup-content {
+    background: rgba(0, 17, 255, 0.877);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+}
+
+/* Estilo para o botão de fechar */
+.popup-close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: red;
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+/* Estilo para o título da popup */
+.titulo-faculdades {
+    color: white;
+}
+
+/* Estilo para os links dentro da popup */
+.popup-content a {
+    color: #00eeff;
+    text-decoration: none;
+}
+
+.popup-content a:hover {
+    color: #1d8f00;
+    text-decoration: underline;
+}
+
+.popup-content ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.popup-content ul li {
+    margin-bottom: 10px;
+}
+
+/* O :target faz a popup ser visível quando o ID da popup for igual ao valor do hash na URL */
+#popup:target {
+    display: flex; /* Torna a popup visível */
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .popup-overlay {
+        width: 80%; /* Aumenta a largura para 80% em telas pequenas */
+        height: 60%; /* Ajusta a altura para 60% em telas pequenas */
+    }
+}
+/* Definições básicas para o carrossel */
+.testimonial-slider {
+  position: relative;
+  width: 100%; /* Corrigido para 100% para ocupar toda a largura do contêiner */
+  max-width: 800px; /* Tamanho máximo do carrossel */
+  margin: 0 auto; /* Centraliza o carrossel */
+  overflow: hidden; /* Oculta o conteúdo fora da área visível */
+  height: 400px; /* Definindo uma altura fixa para o carrossel */
+}
+
+.testimonial-slider input[type="radio"] {
+  display: none; /* Oculta os inputs de radio */
+}
+
+.slides {
+  display: flex; /* Exibe os slides em linha */
+  width: 300%; /* 3 slides em linha, cada um com 100% */
+  transition: transform 1s ease; /* Transição suave ao mudar de slide */
+}
+
+.slide {
+  width: 100%; /* Cada slide ocupa 100% da largura do contêiner */
+  flex-shrink: 0; /* Impede que o slide encolha */
+  box-sizing: border-box; /* Inclui padding e border na largura do slide */
+}
+
+.testimonial-item {
+  padding: 20px;
+  text-align: center;
+  height: 100%; /* Garante que o conteúdo ocupe toda a altura do slide */
+}
+
+.testimonial-content {
+  margin-bottom: 20px;
+}
+
+.testimonial-content p {
+  font-style: italic;
+  color: #333;
+}
+
+.stars {
+  margin-top: 10px;
+}
+
+/* Indicadores */
+.indicators {
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
+}
+
+.indicators label {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background-color: #ccc;
+  margin: 0 5px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+/* Definir o comportamento dos slides ao clicar nos indicadores */
+#slide1:checked ~ .slides {
+  transform: translateX(0%); /* Exibe o primeiro slide */
+}
+
+#slide2:checked ~ .slides {
+  transform: translateX(-100%); /* Exibe o segundo slide */
+}
+
+#slide3:checked ~ .slides {
+  transform: translateX(-200%); /* Exibe o terceiro slide */
+}
+
+/* Destacar o indicador ativo */
+#slide1:checked ~ .indicators label:nth-child(1),
+#slide2:checked ~ .indicators label:nth-child(2),
+#slide3:checked ~ .indicators label:nth-child(3) {
+  background-color: #007bff; /* Cor azul para o indicador ativo */
+}
+
+/* Animação para navegação automática entre os slides */
+.testimonial-slider input[type="radio"]:checked {
+  animation: slideAnimation 9s infinite; /* Definir animação infinita para alternância automática */
+}
+
+/* Animação dos slides */
+@keyframes slideAnimation {
+  0% { transform: translateX(0); }
+  33% { transform: translateX(-100%); }
+  66% { transform: translateX(-200%); }
+  100% { transform: translateX(0); }
+}
+  .carousel-inner img {
+    height: 400px; /* Ajusta a altura das imagens */
+    object-fit: cover; /* Faz as imagens ocuparem o espaço proporcionalmente */
+  }
+
+  .carousel-indicators button {
+    background-color: #0563bb; /* Cor personalizada dos indicadores */
+  }
+
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    background-color: rgba(79, 184, 216, 0.724); /* Fundo semitransparente para ícones de controle */
+    border-radius: 50%; /* Ícones arredondados */
+  }
+  .carousel-caption {
+  background-color: rgba(0, 17, 255, 0.877); /* Fundo semitransparente */
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.carousel-caption h5, .carousel-caption p {
+  color: #ffffff; /* Cor do texto */
+}
+.caption-below {
+  margin-top: 10px; /* Espaço entre a imagem e a legenda */
+}
+
+.caption-below h5 {
+  margin-bottom: 5px; /* Espaço entre o título e a descrição */
+}
+
+.caption-below p {
+  margin-bottom: 10px; /* Espaço entre a descrição e o botão */
+}
+</style>
+
+    </style>
+      <title>ENFERMAGEM</title>
+    <style id="builder-components-styles"></style><style id="builder-custom-styles"></style><style id="builder-colors-styles"></style><link id="builder-main-style" rel="stylesheet" href="https://builder.bootstrapmade.com/assets/css/builder.css?v=40211312522024-06-30 13:33"><style id="builder-priority-styles"></style></head><body class="builder-mode index-page"><a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a><header id="header" class="header d-flex flex-column justify-content-center" data-builder="header" data-js=" header-toggle">
+    
+      <i class="header-toggle d-xl-none bi bi-list"></i>
+    
+      <nav id="navmenu" class="navmenu" data-builder="navmenu" data-js=" mobile-nav-dropdown">
+        <ul>
+          <li><a href="#hero" class="active"><i class="bi bi-house navicon"></i><span>Home</span></a></li>
+          <li><a href="#about"><i class="bi bi-person navicon"></i><span>Sobre</span></a></li>
+          <li><a href="#resume"><i class="bi bi-file-earmark-text navicon"></i><span>Resumo</span></a></li>
+          <li><a href="#portfolio"><i class="bi bi-images navicon"></i><span>Portfolio</span></a></li>
+          <li><a href="#services"><i class="bi bi-hdd-stack navicon"></i><span>Serviços</span></a></li>
+          <li><a href="#faculdades"><i class="bi bi-mortarboard navicon"></i><span>Faculdades</span></a></li>
+        </ul>
+        
+    </nav>
+
+      <script src="https://cdn.jsdelivr.net/npm/@srexi/purecounterjs/dist/purecounter_vanilla.js"></script>
+  <script>
+    new PureCounter();
+  </script>
+
+    </header>
+    <main class="main" id="page-sjhdfjhdsjh" data-name="index">
+      
+      <slot type="page-title"></slot>
+      
+      <div id="section-9fgKnMZj0h" class="builder-section-wrap position-relative " data-js=" typed"><section id="hero" class="hero section" data-builder="section" data-colorpreset="cp-light-background">
+    
+      <img src="https://wallpaperaccess.com/full/4433940.jpg" alt="">
+      
+      <div class="container" data-aos="zoom-out">
+        <div class="row justify-content-center">
+          <div class="col-lg-9">
+            <h2 contenteditable="false" spellcheck="false">Enfermagem</h2>
+            <p data-no-editable="true">Enfermagem é <span class="typed" data-typed-items=" sem Limites,  Amor,  Vida,  Saúde"> Tudo</span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span></p>
+            <div class="social-links">
+              <a href="https://www.bing.com/ck/a?!&&p=9b42f9d9abc59038884af73b6680b1f50c612bacbe865e1e46adc367be4a4836JmltdHM9MTczMjgzODQwMA&ptn=3&ver=2&hsh=4&fclid=26f05809-f28d-6d5c-3602-4cf8f31b6c02&psq=if+goiano+cristalina+facebook&u=a1aHR0cHM6Ly93d3cuZmFjZWJvb2suY29tL0lGR29pYW5vQ2FtcHVzQ3Jpc3RhbGluYS9hYm91dC8&ntb=1"><i class="bi bi-facebook"></i></a>
+              <a href="https://www.bing.com/ck/a?!&&p=09415af319ae750405e52f0aa0c1ba59e3d2a0194f0c27f3e399306d113aa160JmltdHM9MTczMjgzODQwMA&ptn=3&ver=2&hsh=4&fclid=26f05809-f28d-6d5c-3602-4cf8f31b6c02&psq=if+goiano+cristalina+instagram+oficial&u=a1aHR0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9pZmdvaWFub19jYW1wdXNjcmlzdGFsaW5hLw&ntb=1"><i class="bi bi-instagram"></i></a>
+              <a href="https://www.bing.com/ck/a?!&&p=8d325ba9d92eb48f2aea312cc7222e3d0b343129d891af13e70fc7f6230100aaJmltdHM9MTczMjgzODQwMA&ptn=3&ver=2&hsh=4&fclid=26f05809-f28d-6d5c-3602-4cf8f31b6c02&psq=crt.info3+instagram&u=a1aHR0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9pbmZvMy5jcnQv&ntb=1"><i class="bi bi-instagram"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+    </section></div><div id="section-wHyvgCvGUK" class="builder-section-wrap position-relative "><section id="about" class="about section" data-builder="section">
+    
+      <div class="container section-title" data-aos="fade-up" data-builder="section-title">
+      <h2>Sobre</h2>
+      <p>A enfermagem é a ciência e arte de cuidar da saúde, promovendo o bem-estar, prevenção de doenças e recuperação de pacientes. Os enfermeiros atuam em diversos contextos, desde hospitais até comunidades, fornecendo assistência técnica e emocional. É uma profissão essencial para o sistema de saúde, com foco no cuidado humanizado e na melhoria da qualidade de vida.</p>
+    </div><slot type="section-title"></slot>
+    
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+    
+        <div class="row gy-4 justify-content-center">
+          <div class="col-lg-4">
+            <img src="https://guiadoestudante.abril.com.br/wp-content/uploads/sites/4/2016/10/enfermagem.jpg?quality=70" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-8 content">
+            <h2>O Curso &amp; Matriz</h2>
+            <p class="fst-italic py-3">
+              O curso de enfermagem é completo, e trás diversas matérias. Você deve analisar e examinar todas, para saber mais sobre o curso. 
+            </p>
+            <div class="row">
+              <div class="col-lg-6">
+                <ul>
+                    <li><i class="bi bi-chevron-right"></i> <strong>Anatomia Humana:</strong> <span>Estudo detalhado das estruturas e sistemas do corpo humano.</span></li>
+                    <li><i class="bi bi-chevron-right"></i> <strong>Fisiologia:</strong> <span>Funcionamento dos sistemas corporais e suas interações.</span></li>
+                    <li><i class="bi bi-chevron-right"></i> <strong>Microbiologia e Imunologia:</strong> <span>Microorganismos, infecções e o sistema imunológico humano.</span></li>
+                    <li><i class="bi bi-chevron-right"></i> <strong>Fundamentos de Enfermagem:</strong> <span>Técnicas básicas de cuidado e ética profissional.</span></li>
+                    <li><i class="bi bi-chevron-right"></i> <strong>Semiologia e Semiotécnica:</strong> <span>Avaliação e identificação de sinais e sintomas clínicos.</span></li>
+                    <li><i class="bi bi-chevron-right"></i> <strong>Farmacologia:</strong> <span>Uso, efeitos e administração de medicamentos.</span></li>
+                    <li><i class="bi bi-chevron-right"></i> <strong>Patologia Geral:</strong> <span>Alterações e processos das doenças no corpo humano.</span></li>
+                    <li><i class="bi bi-chevron-right"></i> <strong>Enfermagem em Saúde Coletiva:</strong> <span>Promoção da saúde e prevenção de doenças na comunidade.</span></li>
+                    <li><i class="bi bi-chevron-right"></i> <strong>Enfermagem Pediátrica:</strong> <span>Cuidados específicos para crianças e adolescentes.</span></li>
+                    <li><i class="bi bi-chevron-right"></i> <strong>Enfermagem Obstétrica:</strong> <span>Cuidado com gestantes, partos e puerpério.</span></li>
+                    <li><i class="bi bi-chevron-right"></i> <strong>Enfermagem Psiquiátrica:</strong> <span>Assistência em saúde mental e transtornos psicológicos.</span></li>
+                    <li><i class="bi bi-chevron-right"></i> <strong>Enfermagem em UTI:</strong> <span>Manejo de pacientes graves em unidades de terapia intensiva.</span></li>
+                    <li><i class="bi bi-chevron-right"></i> <strong>Bioética:</strong> <span>Princípios éticos aplicados à prática da enfermagem.</span></li>
+                    <li><i class="bi bi-chevron-right"></i> <strong>Ética e Legislação em Enfermagem:</strong> <span>Normas e regulamentações da profissão.</span></li>
+                    <li><i class="bi bi-chevron-right"></i> <strong>Epidemiologia:</strong> <span>Estudo das doenças e sua distribuição na população.</span></li>
+                    <li><i class="bi bi-chevron-right"></i> <strong>Gerenciamento em Enfermagem:</strong> <span>Liderança, organização e administração nos serviços de saúde.</span></li>
+                    <li><i class="bi bi-chevron-right"></i> <strong>Práticas Integradas em Enfermagem:</strong> <span>Estágio supervisionado para aplicação de conhecimentos.</span></li>                    
+                </ul>
+              </div>
+            </div>
+            <p class="py-3">
+              Essas são as matérias bases do curso de Enfermagem.
+            </p>
+          </div>
+        </div>
+    
+      </div>
+    
+    </section></div><div id="section-7Dz1zTNEa2" class="builder-section-wrap position-relative " data-js=" purecounter"><section id="stats" class="stats section" data-builder="section">
+    
+      <slot type="section-title"></slot>
+      
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+      
+        <div class="row gy-4">
+        
+        <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center">
+          <i class="bi bi-emoji-smile"></i>
+          <div class="stats-item">
+            <span data-purecounter-start="0" data-purecounter-end="57" data-purecounter-duration="1" class="purecounter" data-no-editable="true">0</span>
+            <p><a href="https://querobolsa.com.br/">FACULDADES NO GOIÁS</a></p>
+          </div>
+        </div><!-- End Stats Item -->
+
+        
+        <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center">
+          <i class="bi bi-journal-richtext"></i>
+          <div class="stats-item">
+            <span data-purecounter-start="0" data-purecounter-end="7" data-purecounter-duration="1" class="purecounter"></span>
+            <a href="javascript:void(0);" onclick="document.getElementById('popup').style.display='block'">
+              FACULDADES EM CRISTALINA
+            </a>
+           </div>
+        </div>
+        
+
+          <!-- Pop-up -->
+          <div id="popup" class="popup-overlay">
+            <div class="popup-content">
+                <!-- Botão de fechar -->
+                <button class="popup-close" onclick="document.getElementById('popup').style.display='none'">X</button>
+                <!-- Título da popup -->
+                <h3 class="titulo-faculdades">Links para Faculdades em Cristalina</h3>
+                <!-- Lista de links -->
+                <ul>
+                  <li><a href="https://www.bing.com/aclick?ld=e882UrOa7_ALVwaVl3GOynfDVUCUw12grr1-CTFveI0XRlLL6yRErFoIVy910pBcIqLGwuFUpVYYlQ1kAJTmL8rYG-Rgu5qw8udhFqwkppiZMXKQt5bl7UtWmJ52CtiBTaTO7GM5PsPfGOQoQWMlEm5S4dTFXPghhVYnGms6TMLYJfmv_s&u=aHR0cHMlM2ElMmYlMmZwb3J0YWwudW5pYXNzZWx2aS5jb20uYnIlMmZncmFkdWFjYW8lMmZiYWNoYXJlbGFkbyUyZmVuZmVybWFnZW0lMmZlYWQlM2Ztc2Nsa2lkJTNkZWM2ZTM3OTZmZTM4MTU2MzU4YjQ1MGQ2NDhkN2VjY2IlMjZ1dG1fc291cmNlJTNkYmluZyUyNnV0bV9tZWRpdW0lM2RjcGMlMjZ1dG1fY2FtcGFpZ24lM2QyNS4xJTI1MjBQZXNxdWlzYSUyNTIwLSUyNTIwR2VuJWMzJWE5cmljYXMlMjUyMEN1cnNvcyUyNTIwLSUyNTIwQlIlMjUyMC0lMjUyMEJpbmclMjUyMC0lMjUyMEdFQUQlMjZ1dG1fdGVybSUzZGN1cnNvJTI1MjBkZSUyNTIwZW5mZXJtYWdlbMUY2ZWFkJTI2dXRtX2NvbnRlbnQlM2RFbmZlcm1hZ2Vt" target="_blank">UNIASSELVI</a></li>
+                  <li><a href="https://www.bing.com/ck/a?!&&p=5781f9e62f989b6ec075fa4b96763f7a8d113171199ccb6836aeae276e912dd6JmltdHM9MTczMjIzMzYwMA&ptn=3&ver=2&hsh=4&fclid=26f05809-f28d-6d5c-3602-4cf8f31b6c02&psq=link+de+faculdade+de+enfermagem+em+cristalina+go&u=a1aHR0cHM6Ly9zb2JyZXNwLmVkdS5ici9jcmlzdGFsaW5hL2dyYWR1YWNhby9lbmZlcm1hZ2VtLw&ntb=1" target="_blank">SOBRESP</a></li>
+                  <li><a href="https://www.bing.com/ck/a?!&&p=5d64f14caec140fb8951cd9a2c9e2058bc0a53ccec07a1f5edf78dbbfe1c5e70JmltdHM9MTczMjIzMzYwMA&ptn=3&ver=2&hsh=4&fclid=26f05809-f28d-6d5c-3602-4cf8f31b6c02&psq=link+de+faculdade+de+enfermagem+em+cristalina+go&u=a1aHR0cHM6Ly9xdWVyb2JvbHNhLmNvbS5ici9jdXJzb3MtZS1mYWN1bGRhZGVzL2dvaWFzLS1jcmlzdGFsaW5hL2VuZmVybWFnZW0vdG9kb3M&ntb=1" target="_blank">QUERO BOLSAS- CRISTALINA</a></li>
+                  <li><a href="https://www.bing.com/ck/a?!&&p=3f5f6c0ae2e7e77935fb50211d6109dbcf043d12a610b9a525a789603089b84bJmltdHM9MTczMjIzMzYwMA&ptn=3&ver=2&hsh=4&fclid=26f05809-f28d-6d5c-3602-4cf8f31b6c02&psq=link+de+faculdade+de+enfermagem+em+cristalina+go&u=a1aHR0cHM6Ly93d3cuZWFkLmNvbS5ici9jdXJzb3MtZS1mYWN1bGRhZGVzL2dvaWFzLS1jcmlzdGFsaW5hL2VuZmVybWFnZW0&ntb=1" target="_blank">EAD.COM- CRISTALINA</a></li>
+                  <li><a href="https://www.bing.com/ck/a?!&&p=22b94666b0ccfb92cb0d1d35d43097c3b72b90d84b3c9c67205260e3c88bfa94JmltdHM9MTczMjIzMzYwMA&ptn=3&ver=2&hsh=4&fclid=26f05809-f28d-6d5c-3602-4cf8f31b6c02&psq=link+de+faculdade+de+enfermagem+em+cristalina+go&u=a1aHR0cHM6Ly9sb3JlY2FudG8uY29tLmJyL2FuaW1vcy9mYWN1bGFkZGVzLw&ntb=1" target="_blank">FIEO</a></li>
+                  <li><a href="https://www.bing.com/ck/a?!&&p=0fe70f5c93d6d63ab6c408c401d4be938ac38ad062ddc7bfe26d63e3026a7b4eJmltdHM9MTczMjIzMzYwMA&ptn=3&ver=2&hsh=4&fclid=26f05809-f28d-6d5c-3602-4cf8f31b6c02&psq=link+de+faculdade+de+enfermagem+em+cristalina+go&u=a1aHR0cHM6Ly9naXMuZWQubmZyLw&ntb=1" target="_blank">UFU- Cristalina</a></li>
+                  <li><a href="https://www.bing.com/ck/a?!&&p=9d66a9f7fda7a3d7cb517c3ac0157cbdc3a8b0a1db5c6a18725429df6f0b4c4aJmltdHM9MTczMjIzMzYwMA&ptn=3&ver=2&hsh=4&fclid=26f05809-f28d-6d5c-3602-4cf8f31b6c02&psq=link+de+faculdade+de+enfermagem+em+cristalina+go&u=a1aHR0cHM6Ly9saW5rZWRpbi5jb20uYnIvY2xpc3RlbnNhYmVsdGxhbmQv&ntb=1" target="_blank">Link Educação- Cristalina</a></li>
+                 </ul>
+            </div>
+        </div>
+        
+          <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center">
+            <i class="bi bi-people"></i>
+            <div class="stats-item">
+              <span data-purecounter-start="0" data-purecounter-end="46000" data-purecounter-duration="1" class="purecounter" data-no-editable="true">0</span>
+              <p>FORMADOS NA ARÉA EM GOIÁS</p>
+            </div>
+          </div><!-- End Stats Item -->
+        
+        </div>
+      
+      </div>
+    
+<!-- Seção Skills -->
+<section id="skills" class="skills section">
+  <div class="container section-title" data-aos="fade-up">
+      <h2>HABILIDADES</h2>
+      <p>Habilidades e competências desenvolvidas na área de enfermagem.</p>
+  </div>
+  <div class="container" data-aos="fade-up" data-aos-delay="100">
+      <div class="row skills-content">
+          <div class="col-lg-6">
+              <div class="progress">
+                  <span class="skill">Cuidado Humanizado <i class="val">10%</i></span>
+                  <div class="progress-bar-wrap">
+                      <div class="progress-bar" role="progressbar" style="width: 15%;"></div>
+                  </div>
+              </div>
+              <div class="progress">
+                  <span class="skill">Gerenciamento de Casos <i class="val">10%</i></span>
+                  <div class="progress-bar-wrap">
+                      <div class="progress-bar" role="progressbar" style="width: 11%;"></div>
+                  </div>
+              </div>
+              <div class="progress">
+                  <span class="skill">Administração de Medicamentos <i class="val">10%</i></span>
+                  <div class="progress-bar-wrap">
+                      <div class="progress-bar" role="progressbar" style="width: 14%;"></div>
+                  </div>
+              </div>
+          </div>
+          <div class="col-lg-6">
+              <div class="progress">
+                  <span class="skill">Atendimento de Emergências <i class="val">10%</i></span>
+                  <div class="progress-bar-wrap">
+                      <div class="progress-bar" role="progressbar" style="width: 12%;"></div>
+                  </div>
+              </div>
+              <div class="progress">
+                  <span class="skill">Promoção da Saúde <i class="val">10%</i></span>
+                  <div class="progress-bar-wrap">
+                      <div class="progress-bar" role="progressbar" style="width: 13%;"></div>
+                  </div>
+              </div>
+              <div class="progress">
+                  <span class="skill">Habilidades Técnicas <i class="val">10%</i></span>
+                  <div class="progress-bar-wrap">
+                      <div class="progress-bar" role="progressbar" style="width: 10%;"></div>
+                  </div>
+              </div>
+          </div>
+          <!-- Barra Enfermagem ajustada -->
+          <div class="col-lg-12 mt-4">
+              <div class="progress">
+                  <span class="skill">Enfermagem <i class="val">100%</i></span>
+                  <div class="progress-bar-wrap">
+                      <div class="progress-bar bg-danger" role="progressbar" style="width: 95%;"></div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+
+
+<section id="resume" class="resume section py-5">
+  <div class="container section-title" data-aos="fade-up">
+      <h2>Enfermagem na pratica e no bolso $</h2>
+      <p>Experiência profissional, formação acadêmica e especializações na área de enfermagem.</p>
+  </div>
+  <div class="container" data-aos="fade-up" data-aos-delay="100">
+      <div class="row">
+          <!-- Formação Acadêmica -->
+          <div class="col-lg-4">
+              <h3 class="resume-title">Formação Acadêmica</h3>
+              <div class="resume-item">
+                  <h4>Curso Técnico em Enfermagem</h4>
+                  <p><strong>Conclusão:</strong> Formação prática em ambiente hospitalar e domiciliar.</p>
+                  <p><strong>Salário Médio:</strong> R$ 2.000 - R$ 3.500 mensais.</p>
+              </div>
+              <div class="resume-item">
+                  <h4>Bacharelado em Enfermagem</h4>
+                  <p><strong>Conclusão:</strong> Foco em cuidados intensivos e comunitários.</p>
+                  <p><strong>Salário Médio:</strong> R$ 3.500 - R$ 5.500 mensais.</p>
+              </div>
+          </div>
+
+          <!-- Especializações -->
+          <div class="col-lg-4">
+              <h3 class="resume-title">Especializações</h3>
+              <div class="resume-item">
+                  <h4>Especialização em Enfermagem Intensiva</h4>
+                  <p><strong>Salário Médio:</strong> R$ 6.000 - R$ 8.500 mensais.</p>
+              </div>
+              <div class="resume-item">
+                  <h4>Especialização em Enfermagem Obstétrica</h4>
+                  <p><strong>Salário Médio:</strong> R$ 4.500 - R$ 7.000 mensais.</p>
+              </div>
+          </div>
+
+          <!-- Experiência Profissional -->
+          <div class="col-lg-4">
+              <h3 class="resume-title">Experiência Profissional</h3>
+              <div class="resume-item">
+                  <h4>Estagiário/a de Enfermagem</h4>
+                  <ul>
+                      <li>Assistência a pacientes com necessidades especiais.</li>
+                      <li>Organização de eventos de promoção à saúde.</li>
+                  </ul>
+                  <p><strong>Salário Médio:</strong> R$ 1.000 - R$ 1.500 mensais.</p>
+              </div>
+              <div class="resume-item">
+                  <h4>Enfermeira Intensivista</h4>
+                  <ul>
+                      <li>Supervisão de cuidados em unidades de terapia intensiva.</li>
+                      <li>Treinamento de novos membros da equipe.</li>
+                  </ul>
+                  <p><strong>Salário Médio:</strong> R$ 6.000 - R$ 8.000 mensais.</p>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+
+
+    </section></div><div id="section-8tm81sWhkc" class="builder-section-wrap position-relative " data-js=" glightbox isotope-layout"><section id="portfolio" class="portfolio section" data-builder="section">
+    
+      <div class="container section-title" data-aos="fade-up" data-builder="section-title">
+      <h2>Portfólio</h2>
+      <p>Aprenda mais com imagens sobre a história da enfermagem.</p>
+    </div><slot type="section-title"></slot>
+      
+      <div class="container">
+      
+        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+      
+          <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
+            <li data-filter="*" class="filter-active">Tudo</li>
+            <li data-filter=".filter-app">Brasil</li>
+            <li data-filter=".filter-product">EUA</li>
+            <li data-filter=".filter-branding">Mundo</li>
+          </ul><!-- End Portfolio Filters -->
+      
+          <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200" style="position: relative; height: 4276.64px;">
+      
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app" style="position: absolute; left: 0px; top: 0px;">
+              <img src="http://www.hospvirt.org.br/enfermagem/imagens/fotocasa.gif" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Aluna de Enfermagem da EEUSP realizando visita domiciliar</h4>
+                <p>Antes eram sempre realizadas consultas em casa</p>
+                <a href="http://www.hospvirt.org.br/enfermagem/imagens/fotocasa.gif"  data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="http://www.hospvirt.org.br/enfermagem/imagens/fotocasa.gif" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+      
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product" style="position: absolute; left: 0px; top: 547.083px;">
+              <img src="https://th.bing.com/th/id/R.410fdca8309ec735ce666c9d908d5664?rik=Gn6bjeGG56K1aw&pid=ImgRaw&r=0&sres=1&sresct=1" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Hospital Americano</h4>
+                <p></p>
+                <a href="https://th.bing.com/th/id/R.410fdca8309ec735ce666c9d908d5664?rik=Gn6bjeGG56K1aw&pid=ImgRaw&r=0&sres=1&sresct=1" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="https://th.bing.com/th/id/R.410fdca8309ec735ce666c9d908d5664?rik=Gn6bjeGG56K1aw&pid=ImgRaw&r=0&sres=1&sresct=1" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+      
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding" style="position: absolute; left: 0px; top: 917.062px;">
+              <img src="https://html.scribdassets.com/90r86ytta89ajmxr/images/1-f67de91c80.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>HISTORIAS EM TODAS AS ERAS</h4>
+                <p>veja sobre a infermagem em todas as suas eras de evolução e como estamos evoluindo constantemente</p>
+                <a href="https://html.scribdassets.com/90r86ytta89ajmxr/images/1-f67de91c80.jpg"  data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="https://html.scribdassets.com/90r86ytta89ajmxr/images/1-f67de91c80.jpg" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+      
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app" style="position: absolute; left: 0px; top: 1231.31px;">
+              <img src="http://www.hospvirt.org.br/enfermagem/imagens/fotobebe.gif" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Alunas de Enfermagem da EEUSP em aula prática</h4>
+                <p>veja sobre as práticas de enfermagem no brasil</p>
+                <a href="http://www.hospvirt.org.br/enfermagem/imagens/fotobebe.gif"  data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="http://www.hospvirt.org.br/enfermagem/imagens/fotobebe.gif" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+      
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product" style="position: absolute; left: 0px; top: 1596.51px;">
+              <img src="https://th.bing.com/th/id/R.2711ba99d9ffd93288535c777bd36316?rik=QQ6RdmnhqUyC5A&pid=ImgRaw&r=0" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Hospital</h4>
+                <p></p>
+                <a href="https://th.bing.com/th/id/R.2711ba99d9ffd93288535c777bd36316?rik=QQ6RdmnhqUyC5A&pid=ImgRaw&r=0"  data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="https://th.bing.com/th/id/R.2711ba99d9ffd93288535c777bd36316?rik=QQ6RdmnhqUyC5A&pid=ImgRaw&r=0" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+      
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding" style="position: absolute; left: 0px; top: 2391.84px;">
+              <img src="https://files.passeidireto.com/2b18da56-9b7d-4957-98d0-c60d81ebf5c3/2b18da56-9b7d-4957-98d0-c60d81ebf5c3.jpeg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>SAIBA MAIS</h4>
+                <p>descubra cada vez mais sobre a prática.</p>
+                <a href="https://files.passeidireto.com/2b18da56-9b7d-4957-98d0-c60d81ebf5c3/2b18da56-9b7d-4957-98d0-c60d81ebf5c3.jpeg"  data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="https://files.passeidireto.com/2b18da56-9b7d-4957-98d0-c60d81ebf5c3/2b18da56-9b7d-4957-98d0-c60d81ebf5c3.jpeg" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+          </div><!-- End Portfolio Container -->
+      
+        </div>
+      
+      </div>
+    
+    </section></div>
+    
+    <div id="section-dSBBBRDIca" class="builder-section-wrap position-relative">
+      <section id="services" class="services section" data-builder="section">
+          <div class="container section-title" data-aos="fade-up" data-builder="section-title">
+              <h2>Serviços de Enfermagem</h2>
+              <p>Oferecemos uma gama de serviços especializados em enfermagem, com foco em cuidados personalizados, monitoramento contínuo e promoção de saúde, tudo realizado por profissionais qualificados e com experiência.</p>
+          </div>
+          <slot type="section-title"></slot>
+  
+          <div class="container">
+              <div class="row gy-4">
+  
+                  <!-- Serviço 1 -->
+                  <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                      <div class="service-item item-cyan position-relative">
+                          <div class="icon">
+                              <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+                                  <path stroke="none" stroke-width="0" fill="#f5f5f5" d="M300,521.0016835830174C376.1290562159157,517.8887921683347,466.0731472004068,529.7835943286574,510.70327084640275,468.03025145048787C554.3714126377745,407.6079735673963,508.03601936045806,328.9844924480964,491.2728898941984,256.3432110539036C474.5976632858925,184.082847569629,479.9380746630129,96.60480741107993,416.23090153303,58.64404602377083C348.86323505073057,18.502131276798302,261.93793281208167,40.57373210992963,193.5410806939664,78.93577620505333C130.42746243093433,114.334589627462,98.30271207620316,179.96522072025542,76.75703585869454,249.04625023123273C51.97151888228291,328.5150500222984,13.704378332031375,421.85034740162234,66.52175969318436,486.19268352777647C119.04800174914682,550.1803526380478,217.28368757567262,524.383925680826,300,521.0016835830174"></path>
+                              </svg>
+                              <i class="bi bi-activity"></i>
+                          </div>
+                          <a href="#" class="stretched-link"><h3>Cuidados Domiciliares</h3></a>
+                          <p>Oferecemos atendimento de enfermagem em domicílio, proporcionando cuidados personalizados em um ambiente confortável e familiar.</p>
+                      </div>
+                  </div><!-- End Service Item -->
+  
+                  <!-- Serviço 2 -->
+                  <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                      <div class="service-item item-orange position-relative">
+                          <div class="icon">
+                              <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+                                  <path stroke="none" stroke-width="0" fill="#f5f5f5" d="M300,582.0697525312426C382.5290701553225,586.8405444964366,449.9789794690241,525.3245884688669,502.5850820975895,461.55621195738473C556.606425686781,396.0723002908107,615.8543463187945,314.28637112970534,586.6730223649479,234.56875336149918C558.9533121215079,158.8439757836574,454.9685369536778,164.00468322053177,381.49747125262974,130.76875717737553C312.15926192815925,99.40240125094834,248.97055460311594,18.661163978235184,179.8680185752513,50.54337015887873C110.5421016452524,82.52863877960104,119.82277516462835,180.83849132639028,109.12597500060166,256.43424936330496C100.08760227029461,320.3096726198365,92.17705696193138,384.0621239912766,124.79988738764834,439.7174275375508C164.83382741302287,508.01625554203684,220.96474134820875,577.5009287672846,300,582.0697525312426"></path>
+                              </svg>
+                              <i class="bi bi-broadcast"></i>
+                          </div>
+                          <a href="#" class="stretched-link"><h3>Cuidados Intensivos</h3></a>
+                          <p>Especialistas em cuidados intensivos para pacientes em estado crítico, com monitoramento constante e suporte avançado.</p>
+                      </div>
+                  </div><!-- End Service Item -->
+  
+                  <!-- Serviço 3 -->
+                  <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                      <div class="service-item item-teal position-relative">
+                          <div class="icon">
+                              <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+                                  <path stroke="none" stroke-width="0" fill="#f5f5f5" d="M300,541.5067337569781C382.14930387511276,545.0595476570109,479.8736841581634,548.3450877840088,526.4010558755058,480.5488172755941C571.5218469581645,414.80211281144784,517.5187510058486,332.0715597781072,496.52539010469104,255.14436215662573C477.37192572678356,184.95920475031193,473.57363656557914,105.61284051026155,413.0603344069578,65.22779650032875C343.27470386102294,18.654635553484475,251.2091493199835,5.337323636656869,175.0934190732945,40.62881213300186C97.87086631185822,76.43348514350839,51.98124368387456,156.15599469081315,36.44837278890362,239.84606092416172C21.716077023791087,319.22268207091537,43.775223500013084,401.1760424656574,96.891909868211,461.97329694683043C147.22146801428983,519.5804099606455,223.5754009179313,538.201503339737,300,541.5067337569781"></path>
+                              </svg>
+                              <i class="bi bi-easel"></i>
+                          </div>
+                          <a href="#" class="stretched-link"><h3>Enfermagem Obstétrica</h3></a>
+                          <p>Oferecemos cuidados para gestantes e parturientes, com foco em um parto seguro e assistência no pós-parto.</p>
+                      </div>
+                  </div><!-- End Service Item -->
+  
+                  <!-- Serviço 4 -->
+                  <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+                      <div class="service-item item-red position-relative">
+                          <div class="icon">
+                              <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+                                  <path stroke="none" stroke-width="0" fill="#f5f5f5" d="M300,503.46388370962813C374.79870501325706,506.71871716319447,464.8034551963731,527.1746412648533,510.4981551193396,467.86667711651364C555.9287308511215,408.9015244558933,512.6030010748507,327.5744911775523,490.211057578863,256.5855673507754C471.097692560561,195.9905395175773,472.5638794663177,98.68842144591499,414.3092612821054,61.91760906332016C348.4969737252206,25.944118818270064,262.77120539077785,36.66496811800751,200.29729896830607,75.14072101440139C139.3432899072352,110.36027078176544,107.14398204904213,174.8453795788688,83.4675155536177,243.12771152957162C59.17094485909888,319.8880583022534,19.7269506820291,412.1183434621241,74.24433808764428,477.5585648083148C131.74494505953558,542.0522860815059,228.83025390550758,514.34561784783607,300,503.46388370962813"></path>
+                              </svg>
+                              <i class="bi bi-heart"></i>
+                          </div>
+                          <a href="#" class="stretched-link"><h3>Promoção de Saúde</h3></a>
+                          <p>Desenvolvemos programas educativos focados na promoção da saúde, com ações de prevenção de doenças e cuidados com o bem-estar.</p>
+                      </div>
+                  </div><!-- End Service Item -->
+
+           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
+            <div class="service-item item-indigo position-relative">
+              <div class="icon">
+                <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+                  <path stroke="none" stroke-width="0" fill="#f5f5f5" d="M300,532.3542879108572C369.38199826031484,532.3153073249985,429.10787420159085,491.63046689027357,474.5244479745417,439.17860296908856C522.8885846962883,383.3225815378663,569.1668002868075,314.3205725914397,550.7432151929288,242.7694973846089C532.6665558377875,172.5657663291529,456.2379748765914,142.6223662098291,390.3689995646985,112.34683881706744C326.66090330228417,83.06452184765237,258.84405631176094,53.51806209861945,193.32584062364296,78.48882559362697C121.61183558270385,105.82097193414197,62.805066853699245,167.19869350419734,48.57481801355237,242.6138429142374C34.843463184063346,315.3850353017275,76.69343916112496,383.4422959591041,125.22947124332185,439.3748458443577C170.7312796277747,491.8107796887764,230.57421082200815,532.3932930995766,300,532.3542879108572"></path>
+                </svg>
+                <i class="bi bi-calendar4-week icon"></i>
+              </div>
+              <a href="#" class="stretched-link"><h3>Organização e Agendamento</h3></a>
+              <p>Temos muita organização e uma rede firme para fazermos agendamentos</p>
+              <a href="#" class="stretched-link"></a>
+            </div>
+          </div><!-- End Service Item -->
+      
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+            <div class="service-item item-pink position-relative">
+              <div class="icon">
+                <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+                  <path stroke="none" stroke-width="0" fill="#f5f5f5" d="M300,566.797414625762C385.7384707136149,576.1784315230908,478.7894351017131,552.8928747891023,531.9192734346935,484.94944893311C584.6109503024035,417.5663521118492,582.489472248146,322.67544863468447,553.9536738515405,242.03673114598146C529.1557734026468,171.96086150256528,465.24506316201064,127.66468636344209,395.9583748389544,100.7403814666027C334.2173773831606,76.7482773500951,269.4350130405921,84.62216499799875,207.1952322260088,107.2889140133804C132.92018162631612,134.33871894543012,41.79353780512637,160.00259165414826,22.644507872594943,236.69541883565114C3.319112789854554,314.0945973066697,72.72355303640163,379.243833228382,124.04198916343866,440.3218312028393C172.9286146004772,498.5055451809895,224.45579914871206,558.5317968840102,300,566.797414625762"></path>
+                </svg>
+                <i class="bi bi-chat-square-text"></i>
+              </div>
+              <a href="#" class="stretched-link"><h3>Feedback's</h3></a>
+              <p>Aceitamos todos os tipos de feedback, comunicação é nossa chave pro seu sucesso e saude</p>
+              <a href="#" class="stretched-link"></a>
+            </div>
+          </div><!-- End Service Item -->
+          
+        </div>
+      
+      </div>
+    
+    </section></div>
+    
+    <section id="faculdades">
+      <!-- Código do carrossel -->
+      <div id="carouselExampleIndicators" class="carousel slide mx-auto" style="width: 50%; height: auto;" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://sobresp.edu.br/wp-content/uploads/LOGO_SOBRESP_CRISTALINA_CINZA.png" class="d-block w-100" alt="...">
+            <div class="caption-below text-center">
+              <h5>SOBRESP</h5>
+              <p>Clique em saiba mais para saber as formas de ingresso à faculdade.</p>
+              <a href="https://sobresp.edu.br/formas-de-ingresso/" class="btn btn-primary">Saiba mais</a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://th.bing.com/th/id/OIP.bdNZP5wQItQLgy6E9fltAwHaEM?rs=1&pid=ImgDetMain" class="d-block w-100" alt="...">
+            <div class="caption-below text-center">
+              <h5>UNIASSELVI</h5>
+              <p>Clique em saiba mais para saber as formas de ingresso à faculdade.</p>
+              <a href="https://portal.uniasselvi.com.br/graduacao/bacharelado/enfermagem/presencial" class="btn btn-primary">Saiba mais</a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://th.bing.com/th/id/R.18a4fec386fd37b52d64d20c30aac4c9?rik=RA%2fq26FMbSRZeg&pid=ImgRaw&r=0" class="d-block w-100" alt="...">
+            <div class="caption-below text-center">
+              <h5>ANHANGUERA</h5>
+              <p>Clique em saiba mais para saber as formas de ingresso à faculdade.</p>
+              <a href="https://www.anhanguera.com/curso/enfermagem/" class="btn btn-primary">Saiba mais</a>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    
+  
+    <div id="section-jOZpLxMosM" class="builder-section-wrap position-relative "></div>
+    
+    <footer id="footer" class="footer position-relative" data-builder="footer" data-colorpreset="cp-light-background">
+      <div class="container">
+        <h3 class="sitename">ENFERMAGEM</h3>
+        <p>Siga seus sonhos.</p>
+        <div class="social-links d-flex justify-content-center">
+          <a href="https://www.bing.com/ck/a?!&&p=75cebb2c02877db4c5454c7b93fef503b5d5baea541d753a3663cb6a283bd95dJmltdHM9MTczMjgzODQwMA&ptn=3&ver=2&hsh=4&fclid=26f05809-f28d-6d5c-3602-4cf8f31b6c02&psq=ifgoiano+facebook+cristalina&u=a1aHR0cHM6Ly93d3cuZmFjZWJvb2suY29tL0lGR29pYW5vQ2FtcHVzQ3Jpc3RhbGluYS9hYm91dC8&ntb=1"><i class="bi bi-facebook"></i></a>
+          <a href="https://www.instagram.com/ifgoiano_campuscristalina/"><i class="bi bi-instagram"></i></a>
+          <a href="https://www.bing.com/ck/a?!&&p=8d325ba9d92eb48f2aea312cc7222e3d0b343129d891af13e70fc7f6230100aaJmltdHM9MTczMjgzODQwMA&ptn=3&ver=2&hsh=4&fclid=26f05809-f28d-6d5c-3602-4cf8f31b6c02&psq=crt.info3+instagram&u=a1aHR0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9pbmZvMy5jcnQv&ntb=1"><i class="bi bi-instagram"></i></a>
+        </div>
+        <div class="container">
+          <div class="copyright">
+            <span>Copyright</span> <strong class="px-1 sitename">Athos Fernandes & Andressa Avelar</strong> <span>All Rights Reserved</span>
+          </div>
+          
+        </div>
+      </div>
+    </footer><script id="builder-vendors-bootstrap-js" src="https://builder.bootstrapmade.com/static/vendors/bootstrap/js/bootstrap.bundle.min.js?v=13"></script><script id="builder-vendors-aos-js" src="https://builder.bootstrapmade.com/static/vendors/aos/aos.js?v=13 "></script><script id="vendor-js-typed.js" src="https://builder.bootstrapmade.com/static/vendors/typed.js/typed.umd.js?v=13"></script><script id="vendor-js-purecounter" src="https://builder.bootstrapmade.com/static/vendors/purecounter/purecounter_vanilla.js?v=13"></script><script id="vendor-js-waypoints" src="https://builder.bootstrapmade.com/static/vendors/waypoints/noframework.waypoints.js?v=13"></script><script id="vendor-js-glightbox" src="https://builder.bootstrapmade.com/static/vendors/glightbox/js/glightbox.min.js?v=13"></script><script id="vendor-js-imagesloaded" src="https://builder.bootstrapmade.com/static/vendors/imagesloaded/imagesloaded.pkgd.min.js?v=13"></script><script id="vendor-js-isotope-layout" src="https://builder.bootstrapmade.com/static/vendors/isotope-layout/isotope.pkgd.min.js?v=13"></script><script id="vendor-js-swiper" src="https://builder.bootstrapmade.com/static/vendors/swiper/swiper-bundle.min.js?v=13"></script><script id="vendor-js-php-email-form" src="https://builder.bootstrapmade.com/static/vendors/php-email-form/validate.js?v=13"></script><script id="builder-vendors-js"></script><script id="js-header-toggle" class="components-js">(()=>{ /**
+    * Header toggle
+    */
+    const headerToggleBtn = document.querySelector('.header-toggle');
+    function headerToggle() {
+      document.querySelector('#header').classList.toggle('header-show');
+      headerToggleBtn.classList.toggle('bi-list');
+      headerToggleBtn.classList.toggle('bi-x');
+    }
+    headerToggleBtn.addEventListener('click', headerToggle);
+    
+    /**
+    * Hide mobile nav on same-page/hash links
+    */
+    document.querySelectorAll('#navmenu a').forEach(navmenu => {
+      navmenu.addEventListener('click', () => {
+        if( document.querySelector('.header-show') ) {
+          headerToggle();
+        }
+      });
+    
+    });
+    })();</script><script id="js-mobile-nav-dropdown" class="components-js">(()=>{ /**
+    * Toggle mobile nav dropdowns
+    */
+    document.querySelectorAll('.navmenu .toggle-dropdown').forEach(navmenu => {
+      navmenu.addEventListener('click', function(e) {
+        e.preventDefault();
+        this.parentNode.classList.toggle('active');
+        this.parentNode.nextElementSibling.classList.toggle('dropdown-active');
+        e.stopImmediatePropagation();
+      });
+    });
+    })();</script><script id="js-scroll-top" class="components-js">(()=>{ /**
+     * Scroll top button
+     */
+    let scrollTop = document.querySelector('.scroll-top');
+    function toggleScrollTop() {
+      if( scrollTop ) {
+        window.scrollY > 100 ? scrollTop.classList.add('active') : scrollTop.classList.remove('active');
+      }
+    }
+    scrollTop.addEventListener('click', (e) => {
+      e.preventDefault();
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+    
+    window.addEventListener('load', toggleScrollTop);
+    document.addEventListener('scroll', toggleScrollTop);
+    })();</script><script id="js-typed" class="components-js">(()=>{ /**
+     * Init typed.js
+     */
+    const selectTyped = document.querySelector('.typed');
+    if( selectTyped ) {
+      let typed_strings = selectTyped.getAttribute('data-typed-items');
+      typed_strings = typed_strings.split(',');
+      new Typed('.typed', {
+        strings:typed_strings,
+        loop: true,
+        typeSpeed: 100,
+        backSpeed: 50,
+        backDelay: 2000
+      });
+    }
+    })();</script><script id="js-purecounter" class="components-js">(()=>{ /**
+     * Initiate Pure Counter
+     */
+    new PureCounter();
+    })();</script><script id="js-skills-animation" class="components-js">(()=>{ /**
+     * Animate the skills items on reveal
+     */
+    let skillsAnimation = document.querySelectorAll('.skills-animation');
+    skillsAnimation.forEach((item) => {
+      new Waypoint({
+        element: item,
+        offset: '80%',
+        handler: function(direction) {
+          let progress = item.querySelectorAll('.progress .progress-bar');
+          progress.forEach(el => {
+            el.style.width = el.getAttribute('aria-valuenow') + '%';
+          });
+        }
+      });
+    });
+    })();</script><script id="js-glightbox" class="components-js">(()=>{ /**
+    * Initiate glightbox
+    */
+    const glightbox = GLightbox({
+      selector: '.glightbox'
+    });
+    })();</script><script id="js-isotope-layout" class="components-js">(()=>{ /**
+     * Init isotope layout and filters
+     */
+    document.querySelectorAll('.isotope-layout').forEach(function(isotopeItem) {
+      let layout = isotopeItem.getAttribute('data-layout') ?? 'masonry';
+      let filter = isotopeItem.getAttribute('data-default-filter') ?? '*';
+      let sort = isotopeItem.getAttribute('data-sort') ?? 'original-order';
+    
+      let initIsotope;
+      imagesLoaded( isotopeItem.querySelector('.isotope-container'), function() {
+        initIsotope = new Isotope( isotopeItem.querySelector('.isotope-container'), {
+          itemSelector: '.isotope-item',
+          layoutMode: layout,
+          filter: filter,
+          sortBy: sort
+        });
+      });
+    
+      isotopeItem.querySelectorAll('.isotope-filters li').forEach(function(filters) {
+        filters.addEventListener('click', function(){
+          isotopeItem.querySelector('.isotope-filters .filter-active').classList.remove('filter-active');
+          this.classList.add('filter-active');
+          initIsotope.arrange({ filter: this.getAttribute('data-filter') });
+          if (typeof aosInit === 'function') { 
+            aosInit(); 
+          }
+        }, false);
+      });
+    
+    });
+    })();</script><script id="js-init-swiper" class="components-js">(()=>{ /**
+     * Init swiper sliders
+     */
+    function initSwiper() {
+      document.querySelectorAll(".init-swiper").forEach(function (swiperElement) {
+        let config = JSON.parse(
+          swiperElement.querySelector(".swiper-config").innerHTML.trim()
+        );
+    
+        if (swiperElement.classList.contains("swiper-tab")) {
+          initSwiperWithCustomPagination(swiperElement, config);
+        } else {
+          new Swiper(swiperElement, config);
+        }
+      });
+    }
+    
+    window.addEventListener("load", initSwiper);
+    })();</script><script id="builder-js"></script><style data-typed-js-cursor-css="true">
+            .typed-cursor{
+              opacity: 1;
+            }
+            .typed-cursor.typed-cursor--blink{
+              animation: typedjsBlink 0.7s infinite;
+              -webkit-animation: typedjsBlink 0.7s infinite;
+                      animation: typedjsBlink 0.7s infinite;
+            }
+            @keyframes typedjsBlink{
+              50% { opacity: 0.0; }
+            }
+            @-webkit-keyframes typedjsBlink{
+              0% { opacity: 1; }
+              50% { opacity: 0.0; }
+              100% { opacity: 1; }
+            }
+          </style>
+          </body>
+          </html>
