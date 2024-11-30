@@ -1,0 +1,209 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .borda {
+    border: 2px solid black;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 5px;
+  }
+  body {
+    font-family: 'Poppins', sans-serif;
+    background: #f7f9fc;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  /* Navbar */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  .navbar a {
+    text-decoration: none;
+    color: #333;
+    margin: 0 1rem;
+    font-weight: 600;
+  }
+  .auth .btn {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  .login {
+    background: none;
+    color: #4f71df;
+    border: 1px solid #4f71df;
+  }
+  .signup {
+    background: #000000;
+    color: #fff;
+  }
+  
+  /* Hero Section */
+.hero {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #000; /* Para garantir que o fundo tenha uma cor caso a imagem falhe */
+  border-radius: 12px;
+  z-index: 1;
+}
+
+.hero::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url('img/im_g1.png'); /* Substitua pelo caminho correto da imagem */
+  background-size: cover;
+  background-position: center;
+  filter: blur(3px); /* Aplica o desfoque apenas na imagem */
+  z-index: -1; /* Garante que o desfoque fique atrás do conteúdo */
+  border-radius: 12px; /* Aplica o arredondamento da borda na imagem de fundo */
+  animation: scale-up 10s infinite alternate ease-in-out;
+}
+
+.hero .text {
+  z-index: 1; /* Garante que o texto fique acima da imagem */
+  max-width: 50%;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  color: #fff;
+  margin-bottom: 1.5rem;
+}
+
+.hero .btn {
+  background: #fff;
+  color: #4f71df;
+  border: none;
+  padding: 0.5rem 1.5rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.hero .btn:hover {
+  background: #e6edff;
+}
+
+.hero .image img {
+  max-width: 100%;
+  border-radius: 12px;
+}
+
+  /* Artwork Section */
+  .artwork-section {
+    margin-top: 2rem;
+  }
+  .artwork-section h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  .art-list {
+    display: flex;
+    gap: 1rem;
+  }
+  .art-item {
+    background: #fff;
+    border-radius: 8px;
+    padding: 1rem;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  .art-item img {
+    max-width: 100%;
+    border-radius: 8px;
+  }
+  
+  /* Recent Search */
+  .recent-search {
+    margin-top: 2rem;
+  }
+  .recent-search .search-items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  .search-item {
+    background: #e6edff;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.9rem;
+  }
+  .search-item .close {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2rem;
+    color: #4f71df;
+  }
+  
+  /* Info Cards */
+  .info-cards {
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
+  }
+  .card {
+    background: #4f71df;
+    color: #fff;
+    flex: 1;
+    padding: 1rem;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+  .top{
+    padding-top: 10%;
+  }
+  footer {
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    color: #1b1b1b;
+}
+
+  /* Responsiveness */
+  @media (max-width: 768px) {
+    .hero {
+      flex-direction: column;
+      text-align: center;
+    }
+    .hero .image img {
+      max-width: 80%;
+      margin: 1rem 0;
+    }
+    .info-cards {
+      flex-direction: column;
+    }
+  }
